@@ -4,6 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      h1 {
+        color: purple;
+        font-family: fantasy;
+        font-size: 100px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-shadow: 4px 4px 5px grey;
+        text-align: center;
+        text-overflow: clip;
+      }
+      body {
+        background-color: aqua;
+        background-image: url(images/hydrangea-7271492_640.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
   </head>
   <body>
     <h1>My self</h1>
@@ -11,7 +30,7 @@
       I am yogesh jadhav. i am bca student and currently i am prusuing pyhton
       fullstack course from fct.
     </p>
-    <p>
+    <p class="para">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio aperiam
       doloribus, vitae aliquam ab voluptatum natus maxime pariatur error, minus
       est repellat quisquam placeat? Animi amet illum minus aliquam placeat.
@@ -23,14 +42,50 @@
     <br />
     <img src="images/dog-7019418_640.jpg" alt="" />
     <br />
-    <p>
-      <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nihil
-      exercitationem sunt numquam voluptatibus esse debitis, doloremque, ratione</i>
+    <p id="para2">
+      <i>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nihil
+        exercitationem sunt numquam voluptatibus esse debitis, doloremque,
+        ratione</i
+      >
       odit nisi, veniam praesentium eaque. Ex repellat quasi odit modi tempore
       qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ut
       maxime perspiciatis hic iste culpa consectetur dignissimos est mollitia
       quo, a, commodi molestias magni. Ad hic tempore nam rerum rem.
       <u>YOGESH JADHAV</u>
     </p>
+    <h2 class="box_container">box-model</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam ipsa,
+      labore maxime cumque recusandae eos et quod eum quam quidem, quasi quos
+      dolor delectus ratione quibusdam non, molestias rem? Lorem, ipsum dolor
+      sit amet consectetur adipisicing elit. Laudantium dolores minima, magni
+      porro corrupti, perspiciatis nulla, quod totam soluta sed ab vel! Corporis
+      dolore tenetur voluptatibus omnis beatae saepe harum! Lorem ipsum dolor
+      sit amet consectetur, adipisicing elit. Consectetur laudantium debitis
+      soluta ullam totam ipsa laborum amet eius, natus perferendis quo
+      voluptate! Cupiditate, quasi. Est quidem nulla reiciendis quibusdam quas.
+    </p>
+    <form action="">
+      <label for="name">Name</label>
+      <br>
+      <input type="text" placeholder="Enter Your Name" id="name">
+      <br />
+      <label for="email">Email</label>
+      <br>
+      <input type="email" placeholder="Enter Your Email" id="email">
+      <br />
+      <label for="address">Address</label>
+      <br>
+      <input type="text" placeholder="Enter Your Address" id="address">
+      <br />
+      <label for="gender">Gender</label>
+      <br>
+      <select id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </form>
   </body>
 </html>
